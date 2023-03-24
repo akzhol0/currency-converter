@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/css_main/style.css">
+        <link rel="stylesheet" href="assets/css/css_media/media.css">
+ 	    <link rel="icon" href="assets/favicon/main.ico">		
+        <title>Currency converter</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <section>
+                <div class="header">
+                    <strong>Currency Converter</strong>
+                    <small>Check live rates, set rate alerts, receive notifications and more.</small>
+                </div>
+                <div class="block-wrapper">
+                    <div class="block">
+                        <div class="side up">
+                            <div class="text">Amount</div>
+                            <div class="image">
+                                <img src="assets/images/usa.png" alt="usa-flag">
+                                <select>
+                                    <option>USA</option>
+                                </select>
+                                <div class="inp-wrapper">
+                                    <input data-input type="number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-wrapper">
+                            <div class="res-button"><img src="assets/images/Group (1).png" alt="result-button"></div>
+                        </div>
+                        <div class="side down">
+                            <div class="text2">Converted Amount</div>
+                            <div class="image">
+                                <img data-img src="assets/images/au.png" alt="usa-flag" width="50" height="50">
+                                <select data-sel>
+                                    <option name="AUD" curr="1.496" value="assets/images/au.png">AUD</option>
+                                    <option name="GBP" curr="0.814" value="assets/images/br.png">GBP</option>
+                                    <option name="CNY" curr="6.819" value="assets/images/cny.png">CNY</option>
+                                    <option name="EUR" curr="0.922" value="assets/images/euro.png">EUR</option>
+                                    <option name="JPY" curr="130.8" value="assets/images/jpy.png">JPY</option>
+                                    <option name="RUB" curr="76.0" value="assets/images/rus.jpg">RUB</option>
+                                    <option name="TNG" curr="457.97" value="assets/images/kaz.png">TNG</option>
+                                </select>
+                                <div class="inp-wrapper">
+                                    <div data-res></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="curr">
+                    <strong class="form">Indicative Exchange Rate</strong>
+                    <strong class="main">1 USD = <label data-curr>1.496 AUD</label></strong>
+                </div>
+            </section>
+        </div>
+        <script src="java_script/core.js"></script>
+    </body>
+</html>
